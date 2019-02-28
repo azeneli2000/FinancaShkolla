@@ -1,0 +1,2 @@
+# FinancaShkolla
+Program per financen
