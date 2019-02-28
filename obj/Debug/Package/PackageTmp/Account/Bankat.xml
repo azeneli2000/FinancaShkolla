@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bankat>
+  <Banka>
+      <Emri>Cash</Emri>
+    </Banka>
+  <Banka>
+    <Emri>Bkt</Emri>
+  </Banka>
+  <Banka>
+    <Emri>P.Credit</Emri>
+  </Banka>
+</Bankat>

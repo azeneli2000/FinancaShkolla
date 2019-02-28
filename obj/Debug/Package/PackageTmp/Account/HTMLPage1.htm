@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<applet  name="jzebra" code="jzebra.PrintApplet.class"  archive="./jzebra.jar" width="1" height="1">
+      <param name="printer" value="zebra"/>
+    
+</applet>
+<script type = 'text/javascript'>
+    function print() {
+        document.jzebra.append("PRINTED USING JZEBRA\n");
+        document.jzebra.print();
+        document.jzebra.append("\x1D\x56\x41");
+    }
+</script>
+<input type="button" onclick ="print()" value="Print" /><br />
+</body>
+</html>

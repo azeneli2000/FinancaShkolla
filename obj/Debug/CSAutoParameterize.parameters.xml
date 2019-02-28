@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Connection String used in web.config by the application to access the database." defaultvalue="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnetdb.mdf;User Instance=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\Documents\\Visual\ Studio\ 2010\\Projects\\financa_shkolla\\financa_shkolla\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+  <parameter name="Financa_shkollaConnectionString-Web.config Connection String" description="Financa_shkollaConnectionString Connection String used in web.config by the application to access the database." defaultvalue="Data Source=WIN-4TPC6S626AN\SQLEXPRESS;Initial Catalog=Financa_shkolla;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\Documents\\Visual\ Studio\ 2010\\Projects\\financa_shkolla\\financa_shkolla\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Financa_shkollaConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

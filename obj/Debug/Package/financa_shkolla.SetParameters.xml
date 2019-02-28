@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/financa_shkolla_deploy" />
+  <setParameter name="ApplicationServices-Web.config Connection String" value="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnetdb.mdf;User Instance=true" />
+  <setParameter name="Financa_shkollaConnectionString-Web.config Connection String" value="Data Source=WIN-4TPC6S626AN\SQLEXPRESS;Initial Catalog=Financa_shkolla;Integrated Security=True" />
+</parameters>
